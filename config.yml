@@ -1,0 +1,8 @@
+# Конфигурация моделей
+models:
+  embed_model: "sentence-transformers/all-minilm-l6-v2"
+  llm_model: "qwen/qwen3-vl-30b-a3b-thinking"
+
+# Настройки векторного хранилища
+vector_store:
+  path: "./database_vector/qdrant_storage"

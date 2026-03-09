@@ -1,0 +1,6 @@
+__pycache__/
+.cursor/
+.venv/
+database_vector/
+raw/
+.env
