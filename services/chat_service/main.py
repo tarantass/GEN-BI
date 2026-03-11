@@ -3,6 +3,7 @@ from pathlib import Path
 
 import streamlit as st
 
+print('test')
 # Добавляем корень проекта в sys.path, чтобы работал импорт пакета services
 ROOT_DIR = Path(__file__).resolve().parents[2]
 if str(ROOT_DIR) not in sys.path:
